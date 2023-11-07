@@ -372,6 +372,38 @@ elif discr == 0:
     x1 = (-b / 2) * a
 
 
+
+
+# While Loop
+application: To run a block of statements repeatedly until a given
+condition is satisfied.
+
+
+Syntax:
+
+while expression:
+    statement(s)
+
+
+Statements represent all the statements indented by the same number of character spaces after a programming construct are considered to be a part of a single block of code.
+* Indentation is used to include statements in a block or group of codes.
+* When while loop is addressed, it works in the process of evaluting the expression. Checking if the expressions are true and running until it is found to be false is how the work here is done.
+
+Example 1: 
+Loop Control Statements: # Continue and # Break
+i = 0
+a = "FuckOffBitch."
+
+while (i < len(a)):
+    if a[i] == "f" or a[i] == "c":
+         i += 1
+         continue
+    print("Current letter: ", a[i])
+
+    i += 1
+
+
+
                          
     
 
